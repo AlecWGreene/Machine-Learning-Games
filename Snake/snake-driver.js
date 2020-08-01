@@ -15,6 +15,15 @@ const g_tickLength = 200;
 // Graphics Methods
 // ---------------------------------------
 
+/**
+ * @function renderBoard
+ * 
+ * @param {CanvasRenderingContext2D} ctx Context for a 2D canvas
+ * 
+ * @param {Grid} a_grid Game grid
+ * 
+ * @description Renders the grid by coloring in the squares according to the char values of the grid
+ */
 function renderBoard(ctx, a_grid){
     // For each cell
     for(let i = 0; i < 20; i++){
