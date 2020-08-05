@@ -2,10 +2,10 @@
 // ---------------------------------------
 
 /** The game canvas */
-const canvas = $("#snake-canvas")[0];
+const $canvas = $("#snake-canvas")[0];
 
 /** The canvas drawing object */
-const ctx = canvas.getContext("2d");
+const ctx = $canvas.getContext("2d");
 
 /** Tick length */
 const g_tickLength = 200;

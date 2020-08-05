@@ -1,0 +1,5 @@
+{
+    "name": "utilities",
+    "version": "1.0.0",
+    "description": "A simple game of pacman meant to train ML agents in a canvas"
+}

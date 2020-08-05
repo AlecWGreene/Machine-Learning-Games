@@ -1,4 +1,3 @@
-
 class Grid{
     constructor(a_width, a_height, a_cellsize){
         // The map for tracking object placement
@@ -20,3 +19,4 @@ class Grid{
         this.chars = { wall: 'X', space: ' ' }
     }
 }
+
